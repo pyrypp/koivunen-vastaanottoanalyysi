@@ -30,7 +30,7 @@ st.sidebar.subheader("Navigoi sivujen välillä yllä olevan valikon avulla!")
 
 st.header("Muuttujien vaikutus eri vaiheisiin")
 
-grafiikka = Image.open("./saapumiset grafiikka v2.png")
+grafiikka = Image.open("data/saapumiset grafiikka v2.png")
 
 
 textcol1, textcol2 = st.columns([1,1])

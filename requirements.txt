@@ -5,3 +5,4 @@ plotly==5.9.0
 streamlit==1.15.2
 streamlit_option_menu==0.3.2
 openpyxl==3.0.10
+statsmodels==0.13.2
