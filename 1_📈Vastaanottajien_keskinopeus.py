@@ -39,7 +39,7 @@ st.write("---")
 col1, col2, col3 = st.columns([2, 1, 1])
 
 ### haetaan data
-rivispeed2 = pd.read_excel("./rivispeed2.xlsx")
+rivispeed2 = pd.read_excel("data/rivispeed2.xlsx")
 df1 = rivispeed2[rivispeed2["cumtotal"]>0.5].groupby(["alue", "date"]).agg({"speed":"mean", "Hlö":"count"}).reset_index()
 df1 = df1[df1["speed"]<100]
 df1 = df1.sort_values(by=["alue", "date"])

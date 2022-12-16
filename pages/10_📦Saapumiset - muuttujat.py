@@ -50,7 +50,7 @@ with textcol2:
 st.write("---")
 
 ### haetaan data
-saapumiset_df = pd.read_excel("./saapumiset_df.xlsx")
+saapumiset_df = pd.read_excel("data/saapumiset_df.xlsx")
 saapumiset_df["alue"] = saapumiset_df["alue"].astype(str)
 
 rivit_koktime = saapumiset_df.groupby("RIVIMÄÄRÄ")["koktime"].mean().reset_index()

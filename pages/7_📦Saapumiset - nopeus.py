@@ -55,7 +55,7 @@ st.write("---")
 col1, col2, col3 = st.columns([2, 1, 1])
 
 ### haetaan data
-saapumiset_df = pd.read_excel("./saapumiset_df.xlsx")
+saapumiset_df = pd.read_excel("data/saapumiset_df.xlsx")
 saapumiset_df["alue"] = saapumiset_df["alue"].astype(str)
 
 koktime_df = saapumiset_df.groupby(["alue","hyllytys_end_dt"])["koktime"].mean().reset_index().sort_values(by=["alue","hyllytys_end_dt"])

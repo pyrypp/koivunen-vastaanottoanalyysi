@@ -56,7 +56,7 @@ with col2:
         yax_4 = st.checkbox("Vapauta akselit", value=True, disabled=True, key="yax_8")
 
 ### haetaan data
-df4 = pd.read_excel("./rivispeed2.xlsx")
+df4 = pd.read_excel("data/rivispeed2.xlsx")
 
 df4["cumtotal"] = df4["cumtotal"].round(1)
 
@@ -187,7 +187,7 @@ with col3:
         yax_52 = st.checkbox("Vapauta y-akselit", value=True, disabled=True, key="yax_52")
 
 ### haetaan data
-trend_df = pd.read_excel("./rivispeed2.xlsx")
+trend_df = pd.read_excel("data/rivispeed2.xlsx")
 trend_df = trend_df[trend_df["day"]!="La"][trend_df["day"]!="Su"]
 
 if ma_52 == 0:

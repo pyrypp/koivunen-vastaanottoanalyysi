@@ -56,7 +56,7 @@ with col2:
         yax_3 = st.checkbox("Vapauta akselit", value=True, disabled=True, key="yax_6")
 
 ### haetaan data
-df3 = pd.read_excel("./vamäärä_hylspeed.xlsx")
+df3 = pd.read_excel("data/vamäärä_hylspeed.xlsx")
 
 df3 = df3.groupby(["alue", "date", "Hlöcount"])["speed"].mean().reset_index()
 df3 = df3.groupby(["alue", "Hlöcount"])["speed"].mean().reset_index()

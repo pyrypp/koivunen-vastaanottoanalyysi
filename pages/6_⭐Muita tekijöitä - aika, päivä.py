@@ -65,14 +65,14 @@ with col2:
         yax_5 = st.checkbox("Vapauta akselit", value=True, disabled=True, key="yax_10")
 
 ### haetaan data
-df5day = pd.read_excel("./rivispeed2.xlsx")
+df5day = pd.read_excel("data/rivispeed2.xlsx")
 
 if kaikkiyht6:
-    df5 = pd.read_excel("./dayspeed_h.xlsx")
+    df5 = pd.read_excel("data/dayspeed_h.xlsx")
     df5day_cut = df5day[df5day["cumtotal"]>4].groupby("day")["speed"].mean().reset_index()
     df5day = df5day[df5day["cumtotal"]>0.5].groupby("day")["speed"].mean().reset_index()
 else:
-    df5 = pd.read_excel("./dayspeed_h_a.xlsx")
+    df5 = pd.read_excel("data/dayspeed_h_a.xlsx")
     df5day_cut = df5day[df5day["cumtotal"]>4].groupby(["day", "alue"])["speed"].mean().reset_index()
     df5day = df5day[df5day["cumtotal"]>0.5].groupby(["day", "alue"])["speed"].mean().reset_index()
 

@@ -43,9 +43,9 @@ with col1:
 
 
 ### haetaan data
-aluecount_timeline = pd.read_excel("./saapumiset_aluecount_time.xlsx")
-jaettualue_pros = pd.read_excel("./jaettualue_pros.xlsx")
-saapumiset2 = pd.read_excel("./saapumiset_aluejako_vaikutukset.xlsx")
+aluecount_timeline = pd.read_excel("data/saapumiset_aluecount_time.xlsx")
+jaettualue_pros = pd.read_excel("data/jaettualue_pros.xlsx")
+saapumiset2 = pd.read_excel("data/saapumiset_aluejako_vaikutukset.xlsx")
 
 df_koktime = saapumiset2.groupby("aluecount")["koktime"].mean().reset_index()
 df_waittime = saapumiset2.groupby("aluecount")["waittime"].mean().reset_index()

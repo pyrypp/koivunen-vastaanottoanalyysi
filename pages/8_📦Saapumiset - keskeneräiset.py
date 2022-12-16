@@ -62,16 +62,16 @@ with col2:
 
 
 ### haetaan data
-# df5day = pd.read_excel("./rivispeed2.xlsx")
+# df5day = pd.read_excel("data/rivispeed2.xlsx")
 
 if kaikkiyht8:
-    df_kaikki = pd.read_excel("./keskeneräiset_kaikki.xlsx")
-    df_odottavat = pd.read_excel("./keskeneräiset_odottavat.xlsx")
-    df_hyllytys = pd.read_excel("./keskeneräiset_hyllytys.xlsx")
+    df_kaikki = pd.read_excel("data/keskeneräiset_kaikki.xlsx")
+    df_odottavat = pd.read_excel("data/keskeneräiset_odottavat.xlsx")
+    df_hyllytys = pd.read_excel("data/keskeneräiset_hyllytys.xlsx")
 else:
-    df_kaikki = pd.read_excel("./keskeneräiset_kaikki_a.xlsx")
-    df_odottavat = pd.read_excel("./keskeneräiset_odottavat_a.xlsx")
-    df_hyllytys = pd.read_excel("./keskeneräiset_hyllytys_a.xlsx")
+    df_kaikki = pd.read_excel("data/keskeneräiset_kaikki_a.xlsx")
+    df_odottavat = pd.read_excel("data/keskeneräiset_odottavat_a.xlsx")
+    df_hyllytys = pd.read_excel("data/keskeneräiset_hyllytys_a.xlsx")
 
 
 ### chartin y_range

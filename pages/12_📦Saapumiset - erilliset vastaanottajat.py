@@ -47,7 +47,7 @@ st.write("---")
 col1, col2, col3 = st.columns([30, 1, 20])
 
 ### haetaan data
-saapumiset3 = pd.read_excel("./saapumiset3_df.xlsx")
+saapumiset3 = pd.read_excel("data/saapumiset3_df.xlsx")
 # saapumiset3 = saapumiset3[saapumiset3["aluecount"]<4]
 alueet = saapumiset3["alue"].astype(str).sort_values().unique()
 

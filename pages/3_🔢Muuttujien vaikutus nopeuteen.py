@@ -38,7 +38,7 @@ with tcol11:
 col1, col2, col3 = st.columns([30, 1, 20])
 
 ### haetaan data
-rivispeed2 = pd.read_excel("./rivispeed2.xlsx")
+rivispeed2 = pd.read_excel("data/rivispeed2.xlsx")
 alueet = rivispeed2["alue"].unique()
 df2 = rivispeed2.copy()
 df2 = df2[df2["speed"]<100]
