@@ -3,6 +3,7 @@
 
 
 Tutkimuksessa tutkitaan Koivunen Oy:n varastolle saapuvaa tavaraa. Tutkimuksessa tarkastellaan muun muassa saapuvan tavaran määrää, tavaran käsittelyn nopeutta sekä eri muuttujien vaikutusta käsittelyn nopeuteen.
-Tutkimuksen tulokset on esitetty interaktiivisessa muodossa osoitteessa: https://pyryp-koivunen-vastaanotto-dataesitys.streamlit.app/
+Tutkimuksen tulokset on esitetty interaktiivisessa muodossa osoitteessa: 
+https://pyryp-koivunen-vastaanotto-dataesitys.streamlit.app/
 
 _Kuva: Koivunen Oy_
