@@ -7,7 +7,7 @@ Koivusen logistiikkapäällikön pyynnöstä toteutetussa tutkimuksessa tutkitaa
 - Mitä muutoksia varaston toiminnassa on tapahtunut?
 - Miten eri muuttujat vaikuttavat tavaran käsittelynopeuteen?
 
-Sain dataa analysoitavaksi ja kahlasin sitä läpi logistiikkapäällikön toiveiden mukaan.
+Sain dataa analysoitavaksi ja kahlasin sitä läpi logistiikkapäällikön toiveiden mukaisesti.
 
 Tutkimuksen tulokset on esitetty interaktiivisessa muodossa osoitteessa: 
 https://pyryp-koivunen-vastaanotto-dataesitys.streamlit.app/
