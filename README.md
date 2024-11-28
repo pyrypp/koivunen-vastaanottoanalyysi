@@ -18,3 +18,17 @@ _Kuva: Koivunen Oy_
 ##
 [![image](https://github.com/user-attachments/assets/03a1ae2e-fed5-47c7-bfb6-3938cbac8309)](https://pyryp-koivunen-vastaanotto-dataesitys.streamlit.app/)
 
+## Mitä opin?
+- Data-analyysiä Pythonilla
+  - Taulukkodatan käsittelyä (Pandas)
+  - Epätäydellisen datan siistimistä (data cleansing, NaN-arvot)
+  - Datan eksploratiivista tutkimista Pandasin ja Plotlyn avulla
+  - Regressiokäyrien sovittaminen (Scipy)
+  - Feature engineering
+  - Datetime-arvot ja ryhmittely niiden mukaan
+- Todellisen liiketoimintaongelman ratkomista todellisella datalla
+  - Kommunikointi päätöksentekijöiden kanssa
+- Tulosten esittäminen interaktiivisesti nettisivun avulla
+  - Streamlit
+  - Visualisointien kustomointimahdollisuus
+  - Tuloksista ja niiden tulkinnasta selkeästi viestiminen
